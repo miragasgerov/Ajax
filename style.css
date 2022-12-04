@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cover-post{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.post:nth-child(even){
+    background-color: aqua;
+}
+
+.post:nth-child(odd){
+    background-color: palevioletred;
+}
+
+
+
+.post-title{
+    font-size: 18px;
+    color: red;
+}
+
+.post-body{
+    padding-top: 100px;
+    font-size: 22px;
+    color: green;
+}
